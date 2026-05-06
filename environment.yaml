@@ -1,0 +1,20 @@
+name: nnp_distill
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pytorch=2.2.0
+  - pytorch-cuda=12.1
+  - numpy<2
+  - scipy
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - tensorboard
+  - ase=3.22.1
+  - wandb
+  - e3nn=0.5.1
